@@ -56,3 +56,7 @@
 ## 参考资料
 - 原项目地址: [jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days)
 - Python 官方文档: [docs.python.org](https://docs.python.org/zh-cn/3/)
+
+## 开源协议
+
+本项目代码遵循 [MIT License](LICENSE) 协议。
