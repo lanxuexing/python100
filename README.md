@@ -8,10 +8,10 @@
 ## 进度看板
 
 ### 阶段一：Python 语言基础 (Day 01~20)
-- [ ] Day 01 - 初识 Python
-- [ ] Day 02 - 第一个 Python 程序
-- [ ] Day 03 - Python 语言中的变量
-- [ ] Day 04 - Python 语言中的运算符
+- [x] Day 01 - 初识 Python
+- [x] Day 02 - 第一个 Python 程序
+- [x] Day 03 - Python 语言中的变量
+- [x] Day 04 - Python 语言中的运算符
 - [ ] Day 05 - 分支结构
 - [ ] Day 06 - 循环结构
 - [ ] Day 07 - 分支和循环结构实战
