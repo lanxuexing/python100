@@ -48,3 +48,30 @@ print(set1.difference(set2))            # {1, 3, 5, 7}
 # 对称差
 print(set1 ^ set2)                      # {1, 3, 5, 7, 8, 10}
 print(set1.symmetric_difference(set2))  # {1, 3, 5, 7, 8, 10}
+
+print('---------------------------')
+
+set1 = {1, 10, 100}
+
+# 添加元素
+set1.add(1000)
+set1.add(10000)
+print(set1)  # {1, 100, 1000, 10, 10000}
+
+# 删除元素
+set1.discard(10)
+if 100 in set1:
+    set1.remove(100)
+print(set1)  # {1, 1000, 10000}
+
+# 清空元素
+set1.clear()
+print(set1)  # set()
+
+print('---------------------------')
+
+set1 = {'Java', 'Python', 'C++', 'Kotlin'}
+set2 = {'Kotlin', 'Swift', 'Java', 'Dart'}
+set3 = {'HTML', 'CSS', 'JavaScript'}
+print(set1.isdisjoint(set2))  # False
+print(set1.isdisjoint(set3))  # True
